@@ -1,0 +1,24 @@
+{
+  "name": "@kmaslesa/tefsir",
+  "version": "1.0.4",
+  "description": "Tefsir Kur'ana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenanMaslesa/Tefsir.git"
+  },
+  "keywords": [
+    "tefsir",
+    "kur'an",
+    "tumacenje kur'ana"
+  ],
+  "author": "Kenan Maslesa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KenanMaslesa/Tefsir/issues"
+  },
+  "homepage": "https://github.com/KenanMaslesa/Tefsir#readme"
+}
