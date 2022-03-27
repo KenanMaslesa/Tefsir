@@ -5,20 +5,27 @@ function getTafsirAndTranslationForHolyQuran() {
 }
 
 function getTafsirAndTranslationForSura(suraId) {
-    return data.tafsir.filter(ayah => ayah.sura == suraId);
+    return data.tafsir.filter(ayah => ayah.sura == +suraId);
 }
 
 function getTafsirAndTranslationForIndex(index) {
-    return data.tafsir.filter(ayah => ayah.index == index);
+    return data.tafsir.filter(ayah => ayah.index == +index);
 }
 
 function getTafsirAndTranslationForAyah(suraId, ayahId) {
-    return data.tafsir.filter(ayah => ayah.sura == suraId && ayah.aya == ayahId);
+    return data.tafsir.filter(ayah => ayah.sura == +suraId && ayah.ayaNumber == +ayahId);
 }
 
 function getTafsirAndTranslationForPage(page) {
-    const indexesFromPage = data.indexes.filter(item => item.page == page).map(item => item.index);
-    return data.tafsir.filter(ayah => indexesFromPage.indexOf(ayah.index)!=-1);
+    return data.tafsir.filter(ayah => ayah.page == +page);
+}
+
+function getTafsirAndTranslationForJuz(juz) {
+    return data.tafsir.filter(ayah => ayah.juz == +juz);
+}
+
+function getTafsirAndTranslationForHizb(hizb) {
+    return data.tafsir.filter(ayah => ayah.hizb == +hizb);
 }
 
 module.exports = {
@@ -26,5 +33,7 @@ module.exports = {
     getTafsirAndTranslationForSura,
     getTafsirAndTranslationForPage,
     getTafsirAndTranslationForIndex,
-    getTafsirAndTranslationForAyah
+    getTafsirAndTranslationForAyah,
+    getTafsirAndTranslationForJuz,
+    getTafsirAndTranslationForHizb
 }
