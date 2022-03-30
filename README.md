@@ -47,9 +47,18 @@ const tefsir = require('@kmaslesa/tefsir');
 ## Metode:
 ```bash
 tefsir.getTafsirAndTranslationForHolyQuran();
+tefsir.getTafsirAndTranslationForSura(suraId); //suraId=(1-114)
+tefsir.getTafsirAndTranslationForIndex(index); index=(1-6236)
+tefsir.getTafsirAndTranslationForAyah(suraId, ayahId);
+tefsir.getTafsirAndTranslationForPage(pageId); //pageId = (1-604)
+tefsir.getTafsirAndTranslationForJuz(juzId); //juzId = (1-30)
+tefsir.getTafsirAndTranslationForHizb(hizbId); //hizbId = (1-60)
+tefsir.searchAyahs(searchTerm);
 ```
 
 RESPONSE:
+tefsir.getTafsirAndTranslationForHolyQuran();
+
 ```bash
 [
 	{
