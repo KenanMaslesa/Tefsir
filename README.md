@@ -156,20 +156,140 @@ RESPONSE:
 
 ```bash
 tefsir.getTafsirAndTranslationForSura(suraId); //suraId=(1-114)
-tefsir.getTafsirAndTranslationForSura(114);
+tefsir.getTafsirAndTranslationForSura(66);
 ```
 RESPONSE:
 ```bash
-[{"index":6231,"sura":114,"ayaNumber":1,"aya":"قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ","juz":30,"hizb":60,"page":604,"korkutsTranslation":"Reci: \"Tražim zaštitu Gospodara ljudi,","tafsir":"O Poslaniče, reci: Tražim zaštitu kod Gospodara ljudi i Njemu se utičem."},{"index":6232,"sura":114,"ayaNumber":2,"aya":"مَلِكِ ٱلنَّاسِ","juz":30,"hizb":60,"page":604,"korkutsTranslation":"Vladara ljudi,","tafsir":"Vladaru ljudi koji čini s njima šta hoće i pored kojeg niko nema vlasti."},{"index":6233,"sura":114,"ayaNumber":3,"aya":"إِلَٰهِ ٱلنَّاسِ","juz":30,"hizb":60,"page":604,"korkutsTranslation":"Boga ljudi,","tafsir":"Onome koji zaslužuje da se istinski obožava, pored kojeg niko drugi to ne zaslužuje."},{"index":6234,"sura":114,"ayaNumber":4,"aya":"مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ","juz":30,"hizb":60,"page":604,"korkutsTranslation":"od zla šejtana-napasnika,","tafsir":"Od zla šejtana koji čovjeku donosi ružne misli kada zaboravi na Allaha, a kada Ga se sjeti, on se skrije i ne dolazi."},{"index":6235,"sura":114,"ayaNumber":5,"aya":"ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ","juz":30,"hizb":60,"page":604,"korkutsTranslation":"koji zle misli unosi u srca ljudi –","tafsir":"koji unosi zle misli u ljudska sca."},{"index":6236,"sura":114,"ayaNumber":6,"aya":"مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ","juz":30,"hizb":60,"page":604,"korkutsTranslation":"od džina i od ljudi!\"","tafsir":"a on nekada bude ljudske, a nekada džinske vrste."}]
+[
+	{
+		"index":1,
+		"numberOfAyas":7,
+		"startAyaIndex":0,
+		"name":{
+			"arabic":"الفاتحة",
+			"english":"The Opener",
+			"englishTranscription":"Al-Fatihah",
+			"bosnian":"Pristup",
+			"bosnianTranscription":"El-Fatiha"
+		},
+		"aboutSura":{
+			"bosnian":"Obraćanje i usmjeravanje ka Allahu kroz obožavanje jedino Njega."
+		},
+		"type":"Meccan",
+		"orderInPublishing":5,
+		"numberOfWords":29,
+		"numberOfLetters":142,
+		"startJuz":1,
+		"endJuz":1,
+		"startPage":1,
+		"endPage":1,
+		"totalPages":1
+	},
+	{
+		"index":2,
+		"numberOfAyas":286,
+		"startAyaIndex":7,
+		"name":{
+			"arabic":"البقرة",
+			"english":"The Cow",
+			"englishTranscription":"Al-Baqarah",
+			"bosnian":"Krava",
+			"bosnianTranscription":"El-Bekare"
+		},
+		"aboutSura":{
+			"bosnian":"Pripremanje umeta za uspostavu života na Zemlji i uspostavljanje Allahove vjere, zatim pojašnjenje vrsta i kategorija ljudi. U ovoj suri su objašnjeni temelji imana i opći principi šerijata."
+		},
+		"type":"Medinan",
+		"orderInPublishing":87,
+		"numberOfWords":6144,
+		"numberOfLetters":25500,
+		"startJuz":1,
+		"endJuz":3,
+		"startPage":2,
+		"endPage":49,
+		"totalPages":48
+	},
+	{
+		"index":3,
+		"numberOfAyas":200,
+		"startAyaIndex":293,
+		"name":{
+			"arabic":"آل عمران",
+			"english":"Family of Imran",
+			"englishTranscription":"Ali 'Imran",
+			"bosnian":"Imranova porodica",
+			"bosnianTranscription":"Ali-'Imran"
+		},
+		"aboutSura":{
+			"bosnian":"Ustrajnost na islamu nakon njegovog upotpunjenja i objašnjenja, i odgovor na sumnje sljedbenika Knjige, posebno kršćana."
+		},
+		"type":"Medinan",
+		"orderInPublishing":89,
+		"numberOfWords":3505,
+		"numberOfLetters":14525,
+		"startJuz":3,
+		"endJuz":4,
+		"startPage":50,
+		"endPage":76,
+		"totalPages":27
+	},
+	{
+		"index":4,
+		"numberOfAyas":176,
+		"startAyaIndex":493,
+		"name":{
+			"arabic":"النساء",
+			"english":"The Women",
+			"englishTranscription":"An-Nisa",
+			"bosnian":"Žene",
+			"bosnianTranscription":"En-Nisa"
+		},
+		"aboutSura":{
+			"bosnian":"Uređenje muslimanskog društva iznutra kroz čuvanje socijalno-ekonomskih prava, i uklanjanje ostataka paganizma, koncetrišući se na prava žena i slabih."
+		},
+		"type":"Medinan",
+		"orderInPublishing":92,
+		"numberOfWords":3767,
+		"numberOfLetters":16030,
+		"startJuz":4,
+		"endJuz":6,
+		"startPage":77,
+		"endPage":106,
+		"totalPages":30
+	},
+	{
+		"index":5,
+		"numberOfAyas":120,
+		"startAyaIndex":669,
+		"name":{
+			"arabic":"المائدة",
+			"english":"The Table Spread",
+			"englishTranscription":"Al-Ma'idah",
+			"bosnian":"Trpeza",
+			"bosnianTranscription":"El-Maide"
+		},
+		"aboutSura":{
+			"bosnian":"Poštovanje ugovora, pridržavanje zakona i upotpunjenje vjere."
+		},
+		"type":"Medinan",
+		"orderInPublishing":112,
+		"numberOfWords":2841,
+		"numberOfLetters":11933,
+		"startJuz":6,
+		"endJuz":7,
+		"startPage":106,
+		"endPage":127,
+		"totalPages":22
+	},
 ```
 
 ```bash
 tefsir.getTafsirAndTranslationForIndex(index); index=(1-6236)
-tefsir.getTafsirAndTranslationForIndex(6236);
+tefsir.getTafsirAndTranslationForIndex(1);
 ```
 RESPONSE:
 ```bash
-[{"index":6236,"sura":114,"ayaNumber":6,"aya":"مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ","juz":30,"hizb":60,"page":604,"korkutsTranslation":"od džina i od ljudi!\"","tafsir":"a on nekada bude ljudske, a nekada džinske vrste."}]
+{"index":1,"sura":1,"ayaNumber":1,"aya":"بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ","juz":1,"hizb":1,"page":1,"korkutsTranslation":"U ime Allaha, Milostivog, Samilosnog!","tafsir":"Svoje učenje Kur’ana počinjem s imenom Allaha Uzvišenog, od Njega tražeći snagu za to, moleći za Njegov blagoslov i spominjući Njegovo ime. Bismila sadrži tri Allahova lijepa imena, i to: 1. Allah, tj. Onaj Koji istinski zaslužuje da bude obožavan. To je najposebnije Allahovo ime i niko se njime ne smije nazvati osim Allaha; 2. er-Rahman – Milostivi, tj. Onaj Koji posjeduje svojstvo apsolutne milosti, i ovo ime ukazuje na to da Allah posjeduje milost kao svojstvo Svog Bića; 3. er-Rahim – Samilosni, tj. Onaj Koji Svoju milost spušta na ona stvorenja na koja On hoće, a među koja spadaju i vjernici."}
 ```
 
 ```bash
@@ -178,7 +298,7 @@ tefsir.getTafsirAndTranslationForAyah(1, 2);
 ```
 RESPONSE:
 ```bash
-[{"index":2,"sura":1,"ayaNumber":2,"aya":"ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ","juz":1,"hizb":1,"page":1,"korkutsTranslation":"Tebe, Allaha, Gospodara svjetova, hvalimo,","tafsir":"Sve vrste hvale, koje predstavljaju opisivanje nekog svojstvima veličanstva i savršenstva, pripadaju Allahu Jedinom, jer je On gospodar svega, stvoritelj svega, upravitelj svime. Riječ \"svjetovi\" (el-alemun) množina je riječi \"svijet\" (el-alem), a označava sve mimo Allaha."}]
+{"index":2,"sura":1,"ayaNumber":2,"aya":"ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ","juz":1,"hizb":1,"page":1,"korkutsTranslation":"Tebe, Allaha, Gospodara svjetova, hvalimo,","tafsir":"Sve vrste hvale, koje predstavljaju opisivanje nekog svojstvima veličanstva i savršenstva, pripadaju Allahu Jedinom, jer je On gospodar svega, stvoritelj svega, upravitelj svime. Riječ \"svjetovi\" (el-alemun) množina je riječi \"svijet\" (el-alem), a označava sve mimo Allaha."}
 ```
 
 ```bash
@@ -402,5 +522,73 @@ RESPONSE:
 	}...]
 ```
 
+```bash
+tefsir.searchAyahs(searchTerm);
+```
+
+```bash
+EXAMPLE: 
+tefsir.searchAyahs('krava');
+tefsir.searchAyahs('خَٰلِدُونَ');
+
+RESPONSE:
+[
+	{
+		"index":75,
+		"sura":2,
+		"ayaNumber":68,
+		"aya":"قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ",
+		"juz":1,
+		"hizb":1,
+		"page":10,
+		"korkutsTranslation":"\"Zamoli Gospodara svoga, u naše ime\" – rekoše – \"da nam objasni kojih godina ona treba biti.\" – \"On kaže\" – odgovori on – \"da ta krava ne smije biti ni stara ni mlada, nego između toga, srednje dobi, pa izvršite to što se od vas traži!\"",
+		"tafsir":"Oni rekoše Musau: \"Zamoli svog Gospodara da nam pojasni kakva je to krava koju nam je naredio da zakoljemo.\" On im reče: \"Allah vam kaže: 'To je srednja krava, ni premlada ni stara, već između tog dvoga', pa požurite i izvršite naredbu vašeg Gospodara!\""
+	},
+	{
+		"index":76,
+		"sura":2,
+		"ayaNumber":69,
+		"aya":"قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَآءُ فَاقِعٌ لَّوْنُهَا تَسُرُّ ٱلنَّٰظِرِينَ",
+		"juz":1,
+		"hizb":1,
+		"page":10,
+		"korkutsTranslation":"\"Zamoli Gospodara svoga, u naše ime\" – rekoše – \"da nam objasni kakve boje treba biti.\" – \"On poručuje\" – odgovori on – \"da ta krava treba biti jarkorumene boje, da se svidi onima koji je vide.\"",
+		"tafsir":"Oni su nastavili da se raspravljaju i inate, pa rekoše Musau, alejhis-selam: \"Zamoli svog Gospodara da nam pojasni koje je boje ta krava\", pa im Musa reče: \"Allah kaže: 'To je jako žuta krava koja se svidi svakom ko je vidi.'\""
+	},
+	{
+		"index":78,
+		"sura":2,
+		"ayaNumber":71,
+		"aya":"قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
+		"juz":1,
+		"hizb":1,
+		"page":11,
+		"korkutsTranslation":"\"On poručuje\" – reče on – \"da ta krava ne smije biti istrošena oranjem zemlje i natapanjem usjeva; treba biti bez mahane i bez ikakva biljega.\" – \"E sad si je opisao kako treba!\" – rekoše, pa je zaklaše, i jedva to učiniše.",
+		"tafsir":"Musa im reče: \"Allah kaže da ta krava nije korišćena za obrađivanje zemlje, niti za njeno navodnjavanje, i da nema nikakve mahane niti na njoj ima ikakve druge boje mimo žute.\" Onda su rekli: \"E, sada si nam je opisao tako precizno da se tačno može odrediti koja je to krava.\" Zatim su je zaklali, nakon što su umalo odbili tu naredbu svojim inatom i raspravljanjem."
+	},
+	{
+		"index":1639,
+		"sura":12,
+		"ayaNumber":43,
+		"aya":"وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنۢبُلَٰتٍ خُضْرٍ وَأُخَرَ يَابِسَٰتٍ يَٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ",
+		"juz":12,
+		"hizb":24,
+		"page":240,
+		"korkutsTranslation":"I vladar reče: \"Sanjao sam kako sedam mršavih krava pojede sedam debelih, i sanjao sam sedam klasova zelenih i sedam drugih sasušenih. O velikaši, protumačite mi san moj ako snove znate tumačiti!\"",
+		"tafsir":"Kralj reče: \"Sanjao sam sedam debelih krava kako jedu sedam mršavih krava, i vidio sam sedam zelenih klasova i sedam suhih klasova. O prvaci i uglednici, obavijestite me o tumačenju mog sna ako znate tumačiti snove.\""
+	},
+	{
+		"index":1642,
+		"sura":12,
+		"ayaNumber":46,
+		"aya":"يُوسُفُ أَيُّهَا ٱلصِّدِّيقُ أَفْتِنَا فِى سَبْعِ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعِ سُنۢبُلَٰتٍ خُضْرٍ وَأُخَرَ يَابِسَٰتٍ لَّعَلِّىٓ أَرْجِعُ إِلَى ٱلنَّاسِ لَعَلَّهُمْ يَعْلَمُونَ",
+		"juz":12,
+		"hizb":24,
+		"page":241,
+		"korkutsTranslation":"\"Jusufe, o prijatelju, protumači nam šta znači: sedam mršavih krava pojede sedam debelih; i sedam klasova zelenih i sedam drugih sasušenih – pa da se vratim ljudima, da bi oni saznali.\"",
+		"tafsir":"Kada je taj momak stigao do Jusufa reče mu: \"O Jusufe, o ti koji si uvijek iskren, obavijesti me o tumačenju sna u kojem je čovjek vidio sedam debelih krava bivaju pojedene od strane sedam mršavih krava, i u kojem je vidio sedam zelenih klasova a nakon njih sedam suhih klasova. Obavijesti me pa da se vratim kralju i onima koji su kod njega, pa da oni saznaju tumačenje kraljevog sna i da spoznaju tvoju vrijednost.\""
+	}
+]
+```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
