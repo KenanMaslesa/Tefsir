@@ -169,8 +169,8 @@ tefsir.getTafsirAndTranslationForSura(66);
 ```
 RESPONSE:
 ```bash
-[
-	{
+{
+	"suraInfo":{
 		"index":1,
 		"numberOfAyas":7,
 		"startAyaIndex":0,
@@ -194,102 +194,88 @@ RESPONSE:
 		"endPage":1,
 		"totalPages":1
 	},
-	{
-		"index":2,
-		"numberOfAyas":286,
-		"startAyaIndex":7,
-		"name":{
-			"arabic":"البقرة",
-			"english":"The Cow",
-			"englishTranscription":"Al-Baqarah",
-			"bosnian":"Krava",
-			"bosnianTranscription":"El-Bekare"
-		},
-		"aboutSura":{
-			"bosnian":"Pripremanje umeta za uspostavu života na Zemlji i uspostavljanje Allahove vjere, zatim pojašnjenje vrsta i kategorija ljudi. U ovoj suri su objašnjeni temelji imana i opći principi šerijata."
-		},
-		"type":"Medinan",
-		"orderInPublishing":87,
-		"numberOfWords":6144,
-		"numberOfLetters":25500,
-		"startJuz":1,
-		"endJuz":3,
-		"startPage":2,
-		"endPage":49,
-		"totalPages":48
-	},
-	{
-		"index":3,
-		"numberOfAyas":200,
-		"startAyaIndex":293,
-		"name":{
-			"arabic":"آل عمران",
-			"english":"Family of Imran",
-			"englishTranscription":"Ali 'Imran",
-			"bosnian":"Imranova porodica",
-			"bosnianTranscription":"Ali-'Imran"
-		},
-		"aboutSura":{
-			"bosnian":"Ustrajnost na islamu nakon njegovog upotpunjenja i objašnjenja, i odgovor na sumnje sljedbenika Knjige, posebno kršćana."
-		},
-		"type":"Medinan",
-		"orderInPublishing":89,
-		"numberOfWords":3505,
-		"numberOfLetters":14525,
-		"startJuz":3,
-		"endJuz":4,
-		"startPage":50,
-		"endPage":76,
-		"totalPages":27
-	},
-	{
-		"index":4,
-		"numberOfAyas":176,
-		"startAyaIndex":493,
-		"name":{
-			"arabic":"النساء",
-			"english":"The Women",
-			"englishTranscription":"An-Nisa",
-			"bosnian":"Žene",
-			"bosnianTranscription":"En-Nisa"
-		},
-		"aboutSura":{
-			"bosnian":"Uređenje muslimanskog društva iznutra kroz čuvanje socijalno-ekonomskih prava, i uklanjanje ostataka paganizma, koncetrišući se na prava žena i slabih."
-		},
-		"type":"Medinan",
-		"orderInPublishing":92,
-		"numberOfWords":3767,
-		"numberOfLetters":16030,
-		"startJuz":4,
-		"endJuz":6,
-		"startPage":77,
-		"endPage":106,
-		"totalPages":30
-	},
-	{
-		"index":5,
-		"numberOfAyas":120,
-		"startAyaIndex":669,
-		"name":{
-			"arabic":"المائدة",
-			"english":"The Table Spread",
-			"englishTranscription":"Al-Ma'idah",
-			"bosnian":"Trpeza",
-			"bosnianTranscription":"El-Maide"
-		},
-		"aboutSura":{
-			"bosnian":"Poštovanje ugovora, pridržavanje zakona i upotpunjenje vjere."
-		},
-		"type":"Medinan",
-		"orderInPublishing":112,
-		"numberOfWords":2841,
-		"numberOfLetters":11933,
-		"startJuz":6,
-		"endJuz":7,
-		"startPage":106,
-		"endPage":127,
-		"totalPages":22
-	},
+	"ayahsPerPages":[
+		[
+			{
+				"index":1,
+				"sura":1,
+				"ayaNumber":1,
+				"aya":"بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+				"juz":1,
+				"hizb":1,
+				"page":1,
+				"korkutsTranslation":"U ime Allaha, Milostivog, Samilosnog!",
+				"tafsir":"Svoje učenje Kur’ana počinjem s imenom Allaha Uzvišenog, od Njega tražeći snagu za to, moleći za Njegov blagoslov i spominjući Njegovo ime. Bismila sadrži tri Allahova lijepa imena, i to: 1. Allah, tj. Onaj Koji istinski zaslužuje da bude obožavan. To je najposebnije Allahovo ime i niko se njime ne smije nazvati osim Allaha; 2. er-Rahman – Milostivi, tj. Onaj Koji posjeduje svojstvo apsolutne milosti, i ovo ime ukazuje na to da Allah posjeduje milost kao svojstvo Svog Bića; 3. er-Rahim – Samilosni, tj. Onaj Koji Svoju milost spušta na ona stvorenja na koja On hoće, a među koja spadaju i vjernici."
+			},
+			{
+				"index":2,
+				"sura":1,
+				"ayaNumber":2,
+				"aya":"ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+				"juz":1,
+				"hizb":1,
+				"page":1,
+				"korkutsTranslation":"Tebe, Allaha, Gospodara svjetova, hvalimo,",
+				"tafsir":"Sve vrste hvale, koje predstavljaju opisivanje nekog svojstvima veličanstva i savršenstva, pripadaju Allahu Jedinom, jer je On gospodar svega, stvoritelj svega, upravitelj svime. Riječ \"svjetovi\" (el-alemun) množina je riječi \"svijet\" (el-alem), a označava sve mimo Allaha."
+			},
+			{
+				"index":3,
+				"sura":1,
+				"ayaNumber":3,
+				"aya":"ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+				"juz":1,
+				"hizb":1,
+				"page":1,
+				"korkutsTranslation":"Milostivog, Samilosnog,",
+				"tafsir":"Ovim riječima iskazuje se pohvala Uzvišenom Allahu, nakon što Mu se, u prethodnom ajetu, iskazala zahvala."
+			},
+			{
+				"index":4,
+				"sura":1,
+				"ayaNumber":4,
+				"aya":"مَٰلِكِ يَوْمِ ٱلدِّينِ",
+				"juz":1,
+				"hizb":1,
+				"page":1,
+				"korkutsTranslation":"Vladara Dana sudnjeg,",
+				"tafsir":"Ovim riječima ukazuje se na veličanje Uzvišenog Allaha spominjanjem činjenice da će On biti vladar svega na Sudnjem danu, kada niko ništa neće posjedovati. Izraz “Jevmud-din” ovdje znači Dan obračuna, dan kada će svako polagati račun i shodno tome biti nagrađen ili kažnjen."
+			},
+			{
+				"index":5,
+				"sura":1,
+				"ayaNumber":5,
+				"aya":"إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+				"juz":1,
+				"hizb":1,
+				"page":1,
+				"korkutsTranslation":"Tebi se klanjamo i od Tebe pomoć tražimo!",
+				"tafsir":"Isključivo Tebi upućujemo sve vidove obožavanja (ibadeta) i pokornosti, i nikoga Ti, u tome, ne pridružujemo, i samo od Tebe tražimo pomoć u svim našim poslovima. U Tvojoj ruci je svako dobro i niko mimo Tebe ne može pomoći."
+			},
+			{
+				"index":6,
+				"sura":1,
+				"ayaNumber":6,
+				"aya":"ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+				"juz":1,
+				"hizb":1,
+				"page":1,
+				"korkutsTranslation":"Uputi nas na Pravi put,",
+				"tafsir":"Ukaži nam na Pravi put, podari da idemo njime, učvrsti nas na njemu, i povećaj nam uputu. Konstrukcija \"es-siratul-mustekim\" (Pravi put) označava jasnu stazu na kojoj nema stranputica i devijacija. To je, ustvari, islam, odnosno vjera koju je od Allaha dostavio Muhammed, sallallahu alejhi ve sellem."
+			},
+			{
+				"index":7,
+				"sura":1,
+				"ayaNumber":7,
+				"aya":"صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+				"juz":1,
+				"hizb":1,
+				"page":1,
+				"korkutsTranslation":"na Put onih kojima si milost Svoju darovao, a ne onih koji su protiv sebe srdžbu izazvali, niti onih koji su zalutali!",
+				"tafsir":"Na put onih Tvojih robova kojima ti dao blagodat upute, poput vjerovjesnika, istinoljubivih, šehida i dobrih ljudi, a divno je li je to društvo. Sačuvaj nas puta onih na koje se je rasrdilo, koji su spoznali istinu ali je nisu slijedili, poput židova, i sačuvaj nas puta onih koji nisu spoznali put istine zbog svog nemara u traženju istine i upute, poput kršćana."
+			}
+		]
+	]
+}
 ```
 
 ```bash

@@ -1,6 +1,6 @@
 {
   "name": "@kmaslesa/tefsir",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Tefsir Kur'ana",
   "main": "index.js",
   "scripts": {
