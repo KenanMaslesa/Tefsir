@@ -5,16 +5,20 @@ function getTafsirAndTranslationForHolyQuran() {
 }
 
 function getTafsirAndTranslationForSura(suraId) {
+    const ayahsForSura = data.tafsir.filter(item => item.sura === suraId);
+    const pages = ayahsForSura.map(item => item.page);
+    const uniquepages = [...new Set(pages)];
+    const ayahsPerPages = [];
+    uniquepages.forEach(page => {
+        ayahsPerPages.push(ayahsForSura.filter(item => item.page === page));
+    });
     const sura = data.suraList.filter(sura => sura.index === suraId)[0];
-    const array = [];
-    for(let i = sura.startPage; i<= sura.endPage; i++) {
-        array.push(getTafsirAndTranslationForPage(i));
-    }
+
     return {
         suraInfo: {
             ...sura
         },
-        ayahsPerPages: array
+        ayahsPerPages
     };
 }
 
