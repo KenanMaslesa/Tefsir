@@ -55,7 +55,8 @@ tefsir.getTafsirAndTranslationForPage(pageId); //pageId = (1-604)
 tefsir.getTafsirAndTranslationForJuz(juzId); //juzId = (1-30)
 tefsir.getTafsirAndTranslationForHizb(hizbId); //hizbId = (1-60)
 tefsir.searchAyahs(searchTerm);
-getNumberOfAyahsByPage(pageId); //pageId = (1-604)
+tefsir.getNumberOfAyahsByPage(pageId); //pageId = (1-604)
+tefsir.getOrdinalNumberOfAyahOnPage(ayahIndex, pageId); //ayahIndex = (1-6236) - pageId(1-604)
 ```
 
 ```bash
@@ -696,6 +697,12 @@ RESPONSE:
 		"tafsir":"Kada je taj momak stigao do Jusufa reče mu: \"O Jusufe, o ti koji si uvijek iskren, obavijesti me o tumačenju sna u kojem je čovjek vidio sedam debelih krava bivaju pojedene od strane sedam mršavih krava, i u kojem je vidio sedam zelenih klasova a nakon njih sedam suhih klasova. Obavijesti me pa da se vratim kralju i onima koji su kod njega, pa da oni saznaju tumačenje kraljevog sna i da spoznaju tvoju vrijednost.\""
 	}
 ]
+```
+```bash
+tefsir.getOrdinalNumberOfAyahOnPage(23,3);
+
+RESPONSE:
+11
 ```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

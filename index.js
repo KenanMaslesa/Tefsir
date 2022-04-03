@@ -59,6 +59,17 @@ function getNumberOfAyahsByPage(page) {
     return ayahsPerPages.length;
 }
 
+function getOrdinalNumberOfAyahOnPage(ayahIndex, page) {
+    let ordinalNumberOnThePage;
+    const ayahsPerPages = data.tafsir.filter(ayah => ayah.page == +page);
+    ayahsPerPages.forEach((ayah,index) => {
+        if(ayah.index === +ayahIndex) {
+            ordinalNumberOnThePage = index;
+        }
+    });
+    return ordinalNumberOnThePage+1;
+}
+
 
 module.exports = {
     getTafsirAndTranslationForHolyQuran,
@@ -69,5 +80,6 @@ module.exports = {
     getTafsirAndTranslationForJuz,
     getTafsirAndTranslationForHizb,
     searchAyahs,
-    getNumberOfAyahsByPage
+    getNumberOfAyahsByPage,
+    getOrdinalNumberOfAyahOnPage
 }
