@@ -55,6 +55,7 @@ tefsir.getTafsirAndTranslationForPage(pageId); //pageId = (1-604)
 tefsir.getTafsirAndTranslationForJuz(juzId); //juzId = (1-30)
 tefsir.getTafsirAndTranslationForHizb(hizbId); //hizbId = (1-60)
 tefsir.searchAyahs(searchTerm);
+getNumberOfAyahsByPage(pageId); //pageId = (1-604)
 ```
 
 ```bash
@@ -297,11 +298,122 @@ RESPONSE:
 ```
 
 ```bash
-tefsir.getTafsirAndTranslationForPage(2)
+tefsir.getTafsirAndTranslationForPage(1)
 ```
 RESPONSE: 
 ```bash
-[{"index":8,"sura":2,"ayaNumber":1,"aya":"الٓمٓ","juz":1,"hizb":1,"page":2,"korkutsTranslation":"Elif Lām Mīm.","tafsir":"Elif-Lām-Mīm su harfovi kojima počinju neke kur’anske sure. To su slova arapske abecede koja sama po sebi nemaju značenje, ali njihovo izdvojeno spominjanje u Kur’anu ima mudrost i cilj, jer u Kur’anu ništa nije navedeno bez mudrosti i svrhe. Od najbitnijih mudrosti spominjanja ovih harfova je ukazivanje na izazov Arapima da sastave nešto slično ovom Kur'anu, jer se Kur'an sastoji od harfova koji su bili poznati tadašnjim Arapima i od kojih su oni sastavljali riječi. Zbog toga, u većini slučajeva, nakon otpočinjanja neke sure ovim harfovima spominje se Kur'an, kao što je slučaj i u ovoj suri."},{"index":9,"sura":2,"ayaNumber":2,"aya":"ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ","juz":1,"hizb":1,"page":2,"korkutsTranslation":"Ova Knjiga, u koju nema nikakve sumnje, uputstvo je svima onima koji se budu Allaha bojali;","tafsir":"U ovaj veličanstveni Kur'an nema sumnje ni sa kojeg aspekta, pa nema sumnje u to da ga je Allah objavio, niti ima sumnje u to da su sve njegove riječi, i u formi i u značenju – Allahov govor koji bogobojazne upućuje na Pravi put."},{"index":10,"sura":2,"ayaNumber":3,"aya":"ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ","juz":1,"hizb":1,"page":2,"korkutsTranslation":"onima koji u nevidljivi svijet budu vjerovali i molitvu obavljali i udjeljivali dio od onoga što im Mi budemo davali;","tafsir":"3-4. Bogobojazni su oni koji vjeruju u ono što je čulima nedokučivo, a to je sve ono o čemu nas je obavijestio Uzvišeni Allah u Svojoj knjizi ili kroz govor Njegovog Poslanika, poput Sudnjeg dana, i oni koji uspostavljaju namaz tako što ga obavljaju onako kako je Allah propisao, poštujući njegove uslove, sastavne dijelove (ruknove) obavezne i pohvalne radnje, i oni koji udjeljuju od onoga čime ih je Allah opskrbio time što izdvajaju zekat, koji je obavezan, ili sadaku, koja je dobrovoljna. Oni sve to rade nadajući se Allahovoj nagradi. Oni vjeruju u Objavu koju je Allah spustio Svom Vjerovjesniku, i koju je spustio ostalim vjerovjesnicima, neke na njih Allahov mir i spas, ne praveći razliku između tih Objava u pogledu vjerovanja. Oni čvrsto vjeruju u ahiret, onaj svijet, te u nagradu i kaznu koji tamo slijede."},{"index":11,"sura":2,"ayaNumber":4,"aya":"وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْءَاخِرَةِ هُمْ يُوقِنُونَ","juz":1,"hizb":1,"page":2,"korkutsTranslation":"i onima koji budu vjerovali u ono što se objavljuje tebi i u ono što je objavljeno prije tebe, i onima koji u onaj svijet budu čvrsto vjerovali.","tafsir":"3-4. Bogobojazni su oni koji vjeruju u ono što je čulima nedokučivo, a to je sve ono o čemu nas je obavijestio Uzvišeni Allah u Svojoj knjizi ili kroz govor Njegovog Poslanika, poput Sudnjeg dana, i oni koji uspostavljaju namaz tako što ga obavljaju onako kako je Allah propisao, poštujući njegove uslove, sastavne dijelove (ruknove) obavezne i pohvalne radnje, i oni koji udjeljuju od onoga čime ih je Allah opskrbio time što izdvajaju zekat, koji je obavezan, ili sadaku, koja je dobrovoljna. Oni sve to rade nadajući se Allahovoj nagradi. Oni vjeruju u Objavu koju je Allah spustio Svom Vjerovjesniku, i koju je spustio ostalim vjerovjesnicima, neke na njih Allahov mir i spas, ne praveći razliku između tih Objava u pogledu vjerovanja. Oni čvrsto vjeruju u ahiret, onaj svijet, te u nagradu i kaznu koji tamo slijede."},{"index":12,"sura":2,"ayaNumber":5,"aya":"أُو۟لَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ","juz":1,"hizb":1,"page":2,"korkutsTranslation":"Njima će Gospodar njihov na Pravi put ukazati i oni će ono što žele ostvariti.","tafsir":"Ovi ljudi koji posjeduju navedene osobine idu čvrsto pravim putem, i oni su istinski pobjednici na dunjaluku i na ahiretu jer su postigli ono čemu se nadaju i spasili od onoga čega se boje."}] 
+{
+	"suraInfo":{
+		"index":1,
+		"numberOfAyas":7,
+		"startAyaIndex":0,
+		"name":{
+			"arabic":"الفاتحة",
+			"english":"The Opener",
+			"englishTranscription":"Al-Fatihah",
+			"bosnian":"Pristup",
+			"bosnianTranscription":"El-Fatiha"
+		},
+		"aboutSura":{
+			"bosnian":"Obraćanje i usmjeravanje ka Allahu kroz obožavanje jedino Njega."
+		},
+		"type":"Meccan",
+		"orderInPublishing":5,
+		"numberOfWords":29,
+		"numberOfLetters":142,
+		"startJuz":1,
+		"endJuz":1,
+		"startPage":1,
+		"endPage":1,
+		"totalPages":1
+	},
+	"ayahsPerPages":[
+		{
+			"index":1,
+			"sura":1,
+			"ayaNumber":1,
+			"aya":"بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+			"juz":1,
+			"hizb":1,
+			"page":1,
+			"korkutsTranslation":"U ime Allaha, Milostivog, Samilosnog!",
+			"tafsir":"Svoje učenje Kur’ana počinjem s imenom Allaha Uzvišenog, od Njega tražeći snagu za to, moleći za Njegov blagoslov i spominjući Njegovo ime. Bismila sadrži tri Allahova lijepa imena, i to: 1. Allah, tj. Onaj Koji istinski zaslužuje da bude obožavan. To je najposebnije Allahovo ime i niko se njime ne smije nazvati osim Allaha; 2. er-Rahman – Milostivi, tj. Onaj Koji posjeduje svojstvo apsolutne milosti, i ovo ime ukazuje na to da Allah posjeduje milost kao svojstvo Svog Bića; 3. er-Rahim – Samilosni, tj. Onaj Koji Svoju milost spušta na ona stvorenja na koja On hoće, a među koja spadaju i vjernici."
+		},
+		{
+			"index":2,
+			"sura":1,
+			"ayaNumber":2,
+			"aya":"ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+			"juz":1,
+			"hizb":1,
+			"page":1,
+			"korkutsTranslation":"Tebe, Allaha, Gospodara svjetova, hvalimo,",
+			"tafsir":"Sve vrste hvale, koje predstavljaju opisivanje nekog svojstvima veličanstva i savršenstva, pripadaju Allahu Jedinom, jer je On gospodar svega, stvoritelj svega, upravitelj svime. Riječ \"svjetovi\" (el-alemun) množina je riječi \"svijet\" (el-alem), a označava sve mimo Allaha."
+		},
+		{
+			"index":3,
+			"sura":1,
+			"ayaNumber":3,
+			"aya":"ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+			"juz":1,
+			"hizb":1,
+			"page":1,
+			"korkutsTranslation":"Milostivog, Samilosnog,",
+			"tafsir":"Ovim riječima iskazuje se pohvala Uzvišenom Allahu, nakon što Mu se, u prethodnom ajetu, iskazala zahvala."
+		},
+		{
+			"index":4,
+			"sura":1,
+			"ayaNumber":4,
+			"aya":"مَٰلِكِ يَوْمِ ٱلدِّينِ",
+			"juz":1,
+			"hizb":1,
+			"page":1,
+			"korkutsTranslation":"Vladara Dana sudnjeg,",
+			"tafsir":"Ovim riječima ukazuje se na veličanje Uzvišenog Allaha spominjanjem činjenice da će On biti vladar svega na Sudnjem danu, kada niko ništa neće posjedovati. Izraz “Jevmud-din” ovdje znači Dan obračuna, dan kada će svako polagati račun i shodno tome biti nagrađen ili kažnjen."
+		},
+		{
+			"index":5,
+			"sura":1,
+			"ayaNumber":5,
+			"aya":"إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+			"juz":1,
+			"hizb":1,
+			"page":1,
+			"korkutsTranslation":"Tebi se klanjamo i od Tebe pomoć tražimo!",
+			"tafsir":"Isključivo Tebi upućujemo sve vidove obožavanja (ibadeta) i pokornosti, i nikoga Ti, u tome, ne pridružujemo, i samo od Tebe tražimo pomoć u svim našim poslovima. U Tvojoj ruci je svako dobro i niko mimo Tebe ne može pomoći."
+		},
+		{
+			"index":6,
+			"sura":1,
+			"ayaNumber":6,
+			"aya":"ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+			"juz":1,
+			"hizb":1,
+			"page":1,
+			"korkutsTranslation":"Uputi nas na Pravi put,",
+			"tafsir":"Ukaži nam na Pravi put, podari da idemo njime, učvrsti nas na njemu, i povećaj nam uputu. Konstrukcija \"es-siratul-mustekim\" (Pravi put) označava jasnu stazu na kojoj nema stranputica i devijacija. To je, ustvari, islam, odnosno vjera koju je od Allaha dostavio Muhammed, sallallahu alejhi ve sellem."
+		},
+		{
+			"index":7,
+			"sura":1,
+			"ayaNumber":7,
+			"aya":"صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+			"juz":1,
+			"hizb":1,
+			"page":1,
+			"korkutsTranslation":"na Put onih kojima si milost Svoju darovao, a ne onih koji su protiv sebe srdžbu izazvali, niti onih koji su zalutali!",
+			"tafsir":"Na put onih Tvojih robova kojima ti dao blagodat upute, poput vjerovjesnika, istinoljubivih, šehida i dobrih ljudi, a divno je li je to društvo. Sačuvaj nas puta onih na koje se je rasrdilo, koji su spoznali istinu ali je nisu slijedili, poput židova, i sačuvaj nas puta onih koji nisu spoznali put istine zbog svog nemara u traženju istine i upute, poput kršćana."
+		}
+	]
+}
+```
+
+```bash
+tefsir.getNumberOfAyahsByPage(604);
+
+RESPONSE:
+15
 ```
 
 ```bash

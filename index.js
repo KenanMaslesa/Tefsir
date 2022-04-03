@@ -31,7 +31,14 @@ function getTafsirAndTranslationForAyah(suraId, ayahId) {
 }
 
 function getTafsirAndTranslationForPage(page) {
-    return data.tafsir.filter(ayah => ayah.page == +page);
+    const sura = data.suraList.filter(sura => page >= sura.startPage)[1];
+    const ayahsPerPages = data.tafsir.filter(ayah => ayah.page == +page);
+    return {
+        suraInfo: {
+            ...sura
+        },
+        ayahsPerPages
+    };
 }
 
 function getTafsirAndTranslationForJuz(juz) {
@@ -47,6 +54,11 @@ function searchAyahs(searchTerm) {
     || ayah.aya.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1)
 }
 
+function getNumberOfAyahsByPage(page) {
+    const ayahsPerPages = data.tafsir.filter(ayah => ayah.page == +page);
+    return ayahsPerPages.length;
+}
+
 
 module.exports = {
     getTafsirAndTranslationForHolyQuran,
@@ -56,5 +68,6 @@ module.exports = {
     getTafsirAndTranslationForAyah,
     getTafsirAndTranslationForJuz,
     getTafsirAndTranslationForHizb,
-    searchAyahs
+    searchAyahs,
+    getNumberOfAyahsByPage
 }
