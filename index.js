@@ -31,14 +31,18 @@ function getTafsirAndTranslationForAyah(suraId, ayahId) {
 }
 
 function getTafsirAndTranslationForPage(page) {
-    const sura = data.suraList.filter(sura => page >= sura.startPage)[1];
+    const suraList = [...data.suraList];
     const ayahsPerPages = data.tafsir.filter(ayah => ayah.page == +page);
-    return {
-        suraInfo: {
-            ...sura
-        },
-        ayahsPerPages
-    };
+    const newArray = [];
+    ayahsPerPages.forEach(ayah => {
+        const sura = suraList.filter(sura => sura.index === ayah.sura)[0];
+        newArray.push({
+            ...ayah,
+            suraName: sura.name.bosnianTranscription + ' - ' + sura.name.arabic
+        })
+    })
+    return newArray;
+  
 }
 
 function getTafsirAndTranslationForJuz(juz) {

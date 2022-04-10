@@ -299,115 +299,192 @@ RESPONSE:
 ```
 
 ```bash
-tefsir.getTafsirAndTranslationForPage(1)
+tefsir.getTafsirAndTranslationForPage(604)
 ```
 RESPONSE: 
 ```bash
-{
-	"suraInfo":{
-		"index":1,
-		"numberOfAyas":7,
-		"startAyaIndex":0,
-		"name":{
-			"arabic":"الفاتحة",
-			"english":"The Opener",
-			"englishTranscription":"Al-Fatihah",
-			"bosnian":"Pristup",
-			"bosnianTranscription":"El-Fatiha"
-		},
-		"aboutSura":{
-			"bosnian":"Obraćanje i usmjeravanje ka Allahu kroz obožavanje jedino Njega."
-		},
-		"type":"Meccan",
-		"orderInPublishing":5,
-		"numberOfWords":29,
-		"numberOfLetters":142,
-		"startJuz":1,
-		"endJuz":1,
-		"startPage":1,
-		"endPage":1,
-		"totalPages":1
+[
+	{
+		"index":6222,
+		"sura":112,
+		"ayaNumber":1,
+		"aya":"قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"Reci: \"On je Allah – Jedan!",
+		"tafsir":"Reci, o Poslaniče: Allah je jedinstven u božanskim osobinama i On je jedini Bog.",
+		"suraName":"El-Ihlas - الإخلاص"
 	},
-	"ayahsPerPages":[
-		{
-			"index":1,
-			"sura":1,
-			"ayaNumber":1,
-			"aya":"بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
-			"juz":1,
-			"hizb":1,
-			"page":1,
-			"korkutsTranslation":"U ime Allaha, Milostivog, Samilosnog!",
-			"tafsir":"Svoje učenje Kur’ana počinjem s imenom Allaha Uzvišenog, od Njega tražeći snagu za to, moleći za Njegov blagoslov i spominjući Njegovo ime. Bismila sadrži tri Allahova lijepa imena, i to: 1. Allah, tj. Onaj Koji istinski zaslužuje da bude obožavan. To je najposebnije Allahovo ime i niko se njime ne smije nazvati osim Allaha; 2. er-Rahman – Milostivi, tj. Onaj Koji posjeduje svojstvo apsolutne milosti, i ovo ime ukazuje na to da Allah posjeduje milost kao svojstvo Svog Bića; 3. er-Rahim – Samilosni, tj. Onaj Koji Svoju milost spušta na ona stvorenja na koja On hoće, a među koja spadaju i vjernici."
-		},
-		{
-			"index":2,
-			"sura":1,
-			"ayaNumber":2,
-			"aya":"ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
-			"juz":1,
-			"hizb":1,
-			"page":1,
-			"korkutsTranslation":"Tebe, Allaha, Gospodara svjetova, hvalimo,",
-			"tafsir":"Sve vrste hvale, koje predstavljaju opisivanje nekog svojstvima veličanstva i savršenstva, pripadaju Allahu Jedinom, jer je On gospodar svega, stvoritelj svega, upravitelj svime. Riječ \"svjetovi\" (el-alemun) množina je riječi \"svijet\" (el-alem), a označava sve mimo Allaha."
-		},
-		{
-			"index":3,
-			"sura":1,
-			"ayaNumber":3,
-			"aya":"ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
-			"juz":1,
-			"hizb":1,
-			"page":1,
-			"korkutsTranslation":"Milostivog, Samilosnog,",
-			"tafsir":"Ovim riječima iskazuje se pohvala Uzvišenom Allahu, nakon što Mu se, u prethodnom ajetu, iskazala zahvala."
-		},
-		{
-			"index":4,
-			"sura":1,
-			"ayaNumber":4,
-			"aya":"مَٰلِكِ يَوْمِ ٱلدِّينِ",
-			"juz":1,
-			"hizb":1,
-			"page":1,
-			"korkutsTranslation":"Vladara Dana sudnjeg,",
-			"tafsir":"Ovim riječima ukazuje se na veličanje Uzvišenog Allaha spominjanjem činjenice da će On biti vladar svega na Sudnjem danu, kada niko ništa neće posjedovati. Izraz “Jevmud-din” ovdje znači Dan obračuna, dan kada će svako polagati račun i shodno tome biti nagrađen ili kažnjen."
-		},
-		{
-			"index":5,
-			"sura":1,
-			"ayaNumber":5,
-			"aya":"إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
-			"juz":1,
-			"hizb":1,
-			"page":1,
-			"korkutsTranslation":"Tebi se klanjamo i od Tebe pomoć tražimo!",
-			"tafsir":"Isključivo Tebi upućujemo sve vidove obožavanja (ibadeta) i pokornosti, i nikoga Ti, u tome, ne pridružujemo, i samo od Tebe tražimo pomoć u svim našim poslovima. U Tvojoj ruci je svako dobro i niko mimo Tebe ne može pomoći."
-		},
-		{
-			"index":6,
-			"sura":1,
-			"ayaNumber":6,
-			"aya":"ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
-			"juz":1,
-			"hizb":1,
-			"page":1,
-			"korkutsTranslation":"Uputi nas na Pravi put,",
-			"tafsir":"Ukaži nam na Pravi put, podari da idemo njime, učvrsti nas na njemu, i povećaj nam uputu. Konstrukcija \"es-siratul-mustekim\" (Pravi put) označava jasnu stazu na kojoj nema stranputica i devijacija. To je, ustvari, islam, odnosno vjera koju je od Allaha dostavio Muhammed, sallallahu alejhi ve sellem."
-		},
-		{
-			"index":7,
-			"sura":1,
-			"ayaNumber":7,
-			"aya":"صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
-			"juz":1,
-			"hizb":1,
-			"page":1,
-			"korkutsTranslation":"na Put onih kojima si milost Svoju darovao, a ne onih koji su protiv sebe srdžbu izazvali, niti onih koji su zalutali!",
-			"tafsir":"Na put onih Tvojih robova kojima ti dao blagodat upute, poput vjerovjesnika, istinoljubivih, šehida i dobrih ljudi, a divno je li je to društvo. Sačuvaj nas puta onih na koje se je rasrdilo, koji su spoznali istinu ali je nisu slijedili, poput židova, i sačuvaj nas puta onih koji nisu spoznali put istine zbog svog nemara u traženju istine i upute, poput kršćana."
-		}
-	]
-}
+	{
+		"index":6223,
+		"sura":112,
+		"ayaNumber":2,
+		"aya":"ٱللَّهُ ٱلصَّمَدُ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"Allah je Utočište svakom!",
+		"tafsir":"On je Gospodar Apsolutni i savršeni u svojim svojstvima i ljepoti, Onaj kome sva stvorenja teže i kod Njega utočište traže.",
+		"suraName":"El-Ihlas - الإخلاص"
+	},
+	{
+		"index":6224,
+		"sura":112,
+		"ayaNumber":3,
+		"aya":"لَمْ يَلِدْ وَلَمْ يُولَدْ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"Nije rodio i rođen nije,",
+		"tafsir":"Onaj koji nikog nije rodio, niti je Njega iko rodio. On Uzvišeni nema ni djeteta ni roditelja.",
+		"suraName":"El-Ihlas - الإخلاص"
+	},
+	{
+		"index":6225,
+		"sura":112,
+		"ayaNumber":4,
+		"aya":"وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"i niko Mu ravan nije!\"",
+		"tafsir":"Njemu niko od stvorenja nije sličan.",
+		"suraName":"El-Ihlas - الإخلاص"
+	},
+	{
+		"index":6226,
+		"sura":113,
+		"ayaNumber":1,
+		"aya":"قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"Reci: \"Utječem se Gospodaru svitanja",
+		"tafsir":"O Poslaniče, reci: Tražim zaštitu kod Gospodara jutra.",
+		"suraName":"El-Felek - الفلق"
+	},
+	{
+		"index":6227,
+		"sura":113,
+		"ayaNumber":2,
+		"aya":"مِن شَرِّ مَا خَلَقَ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"od zla onoga što On stvara,",
+		"tafsir":"od zla kojeg čine stvorenja i njihovih uznemiravanja.",
+		"suraName":"El-Felek - الفلق"
+	},
+	{
+		"index":6228,
+		"sura":113,
+		"ayaNumber":3,
+		"aya":"وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"i od zla mrkle noći kada razastre tmine,",
+		"tafsir":"I kod Allaha tražim spas od zla koje se pojavljuje noću, u vidu životinja i lopova.",
+		"suraName":"El-Felek - الفلق"
+	},
+	{
+		"index":6229,
+		"sura":113,
+		"ayaNumber":4,
+		"aya":"وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"i od zla onih koje u čvorove pušu ",
+		"tafsir":"I kod njega tražim spas od sihirbasica koje pušu u čvorove.",
+		"suraName":"El-Felek - الفلق"
+	},
+	{
+		"index":6230,
+		"sura":113,
+		"ayaNumber":5,
+		"aya":"وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"i od zla zavidljivca kad zavist ne krije!\"",
+		"tafsir":"I kod Njega tražim spas od zla zavidnika koji radi ono iz čega proizlazi zavist.",
+		"suraName":"El-Felek - الفلق"
+	},
+	{
+		"index":6231,
+		"sura":114,
+		"ayaNumber":1,
+		"aya":"قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"Reci: \"Tražim zaštitu Gospodara ljudi,",
+		"tafsir":"O Poslaniče, reci: Tražim zaštitu kod Gospodara ljudi i Njemu se utičem.",
+		"suraName":"En-Nas - الناس"
+	},
+	{
+		"index":6232,
+		"sura":114,
+		"ayaNumber":2,
+		"aya":"مَلِكِ ٱلنَّاسِ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"Vladara ljudi,",
+		"tafsir":"Vladaru ljudi koji čini s njima šta hoće i pored kojeg niko nema vlasti.",
+		"suraName":"En-Nas - الناس"
+	},
+	{
+		"index":6233,
+		"sura":114,
+		"ayaNumber":3,
+		"aya":"إِلَٰهِ ٱلنَّاسِ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"Boga ljudi,",
+		"tafsir":"Onome koji zaslužuje da se istinski obožava, pored kojeg niko drugi to ne zaslužuje.",
+		"suraName":"En-Nas - الناس"
+	},
+	{
+		"index":6234,
+		"sura":114,
+		"ayaNumber":4,
+		"aya":"مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"od zla šejtana-napasnika,",
+		"tafsir":"Od zla šejtana koji čovjeku donosi ružne misli kada zaboravi na Allaha, a kada Ga se sjeti, on se skrije i ne dolazi.",
+		"suraName":"En-Nas - الناس"
+	},
+	{
+		"index":6235,
+		"sura":114,
+		"ayaNumber":5,
+		"aya":"ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"koji zle misli unosi u srca ljudi –",
+		"tafsir":"koji unosi zle misli u ljudska sca.",
+		"suraName":"En-Nas - الناس"
+	},
+	{
+		"index":6236,
+		"sura":114,
+		"ayaNumber":6,
+		"aya":"مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+		"juz":30,
+		"hizb":60,
+		"page":604,
+		"korkutsTranslation":"od džina i od ljudi!\"",
+		"tafsir":"a on nekada bude ljudske, a nekada džinske vrste.",
+		"suraName":"En-Nas - الناس"
+	}
+]
 ```
 
 ```bash
