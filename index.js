@@ -38,7 +38,7 @@ function getTafsirAndTranslationForPage(page) {
         const sura = suraList.filter(sura => sura.index === ayah.sura)[0];
         newArray.push({
             ...ayah,
-            suraName: sura.name.bosnianTranscription + ' - ' + sura.name.arabic
+            suraTitle: sura.name
         })
     })
     return newArray;

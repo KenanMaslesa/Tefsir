@@ -314,7 +314,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"Reci: \"On je Allah – Jedan!",
 		"tafsir":"Reci, o Poslaniče: Allah je jedinstven u božanskim osobinama i On je jedini Bog.",
-		"suraName":"El-Ihlas - الإخلاص"
+		"suraTitle":{
+			"arabic":"الإخلاص",
+			"english":"The Sincerity",
+			"englishTranscription":"Al-Ikhlas",
+			"bosnian":"Iskrenost",
+			"bosnianTranscription":"El-Ihlas"
+		}
 	},
 	{
 		"index":6223,
@@ -326,7 +332,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"Allah je Utočište svakom!",
 		"tafsir":"On je Gospodar Apsolutni i savršeni u svojim svojstvima i ljepoti, Onaj kome sva stvorenja teže i kod Njega utočište traže.",
-		"suraName":"El-Ihlas - الإخلاص"
+		"suraTitle":{
+			"arabic":"الإخلاص",
+			"english":"The Sincerity",
+			"englishTranscription":"Al-Ikhlas",
+			"bosnian":"Iskrenost",
+			"bosnianTranscription":"El-Ihlas"
+		}
 	},
 	{
 		"index":6224,
@@ -338,7 +350,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"Nije rodio i rođen nije,",
 		"tafsir":"Onaj koji nikog nije rodio, niti je Njega iko rodio. On Uzvišeni nema ni djeteta ni roditelja.",
-		"suraName":"El-Ihlas - الإخلاص"
+		"suraTitle":{
+			"arabic":"الإخلاص",
+			"english":"The Sincerity",
+			"englishTranscription":"Al-Ikhlas",
+			"bosnian":"Iskrenost",
+			"bosnianTranscription":"El-Ihlas"
+		}
 	},
 	{
 		"index":6225,
@@ -350,7 +368,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"i niko Mu ravan nije!\"",
 		"tafsir":"Njemu niko od stvorenja nije sličan.",
-		"suraName":"El-Ihlas - الإخلاص"
+		"suraTitle":{
+			"arabic":"الإخلاص",
+			"english":"The Sincerity",
+			"englishTranscription":"Al-Ikhlas",
+			"bosnian":"Iskrenost",
+			"bosnianTranscription":"El-Ihlas"
+		}
 	},
 	{
 		"index":6226,
@@ -362,7 +386,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"Reci: \"Utječem se Gospodaru svitanja",
 		"tafsir":"O Poslaniče, reci: Tražim zaštitu kod Gospodara jutra.",
-		"suraName":"El-Felek - الفلق"
+		"suraTitle":{
+			"arabic":"الفلق",
+			"english":"The Daybreak",
+			"englishTranscription":"Al-Falaq",
+			"bosnian":"Svitanje",
+			"bosnianTranscription":"El-Felek"
+		}
 	},
 	{
 		"index":6227,
@@ -374,7 +404,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"od zla onoga što On stvara,",
 		"tafsir":"od zla kojeg čine stvorenja i njihovih uznemiravanja.",
-		"suraName":"El-Felek - الفلق"
+		"suraTitle":{
+			"arabic":"الفلق",
+			"english":"The Daybreak",
+			"englishTranscription":"Al-Falaq",
+			"bosnian":"Svitanje",
+			"bosnianTranscription":"El-Felek"
+		}
 	},
 	{
 		"index":6228,
@@ -386,7 +422,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"i od zla mrkle noći kada razastre tmine,",
 		"tafsir":"I kod Allaha tražim spas od zla koje se pojavljuje noću, u vidu životinja i lopova.",
-		"suraName":"El-Felek - الفلق"
+		"suraTitle":{
+			"arabic":"الفلق",
+			"english":"The Daybreak",
+			"englishTranscription":"Al-Falaq",
+			"bosnian":"Svitanje",
+			"bosnianTranscription":"El-Felek"
+		}
 	},
 	{
 		"index":6229,
@@ -398,7 +440,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"i od zla onih koje u čvorove pušu ",
 		"tafsir":"I kod njega tražim spas od sihirbasica koje pušu u čvorove.",
-		"suraName":"El-Felek - الفلق"
+		"suraTitle":{
+			"arabic":"الفلق",
+			"english":"The Daybreak",
+			"englishTranscription":"Al-Falaq",
+			"bosnian":"Svitanje",
+			"bosnianTranscription":"El-Felek"
+		}
 	},
 	{
 		"index":6230,
@@ -410,7 +458,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"i od zla zavidljivca kad zavist ne krije!\"",
 		"tafsir":"I kod Njega tražim spas od zla zavidnika koji radi ono iz čega proizlazi zavist.",
-		"suraName":"El-Felek - الفلق"
+		"suraTitle":{
+			"arabic":"الفلق",
+			"english":"The Daybreak",
+			"englishTranscription":"Al-Falaq",
+			"bosnian":"Svitanje",
+			"bosnianTranscription":"El-Felek"
+		}
 	},
 	{
 		"index":6231,
@@ -422,7 +476,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"Reci: \"Tražim zaštitu Gospodara ljudi,",
 		"tafsir":"O Poslaniče, reci: Tražim zaštitu kod Gospodara ljudi i Njemu se utičem.",
-		"suraName":"En-Nas - الناس"
+		"suraTitle":{
+			"arabic":"الناس",
+			"english":"The Mankind",
+			"englishTranscription":"An-Nas",
+			"bosnian":"Ljudi",
+			"bosnianTranscription":"En-Nas"
+		}
 	},
 	{
 		"index":6232,
@@ -434,7 +494,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"Vladara ljudi,",
 		"tafsir":"Vladaru ljudi koji čini s njima šta hoće i pored kojeg niko nema vlasti.",
-		"suraName":"En-Nas - الناس"
+		"suraTitle":{
+			"arabic":"الناس",
+			"english":"The Mankind",
+			"englishTranscription":"An-Nas",
+			"bosnian":"Ljudi",
+			"bosnianTranscription":"En-Nas"
+		}
 	},
 	{
 		"index":6233,
@@ -446,7 +512,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"Boga ljudi,",
 		"tafsir":"Onome koji zaslužuje da se istinski obožava, pored kojeg niko drugi to ne zaslužuje.",
-		"suraName":"En-Nas - الناس"
+		"suraTitle":{
+			"arabic":"الناس",
+			"english":"The Mankind",
+			"englishTranscription":"An-Nas",
+			"bosnian":"Ljudi",
+			"bosnianTranscription":"En-Nas"
+		}
 	},
 	{
 		"index":6234,
@@ -458,7 +530,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"od zla šejtana-napasnika,",
 		"tafsir":"Od zla šejtana koji čovjeku donosi ružne misli kada zaboravi na Allaha, a kada Ga se sjeti, on se skrije i ne dolazi.",
-		"suraName":"En-Nas - الناس"
+		"suraTitle":{
+			"arabic":"الناس",
+			"english":"The Mankind",
+			"englishTranscription":"An-Nas",
+			"bosnian":"Ljudi",
+			"bosnianTranscription":"En-Nas"
+		}
 	},
 	{
 		"index":6235,
@@ -470,7 +548,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"koji zle misli unosi u srca ljudi –",
 		"tafsir":"koji unosi zle misli u ljudska sca.",
-		"suraName":"En-Nas - الناس"
+		"suraTitle":{
+			"arabic":"الناس",
+			"english":"The Mankind",
+			"englishTranscription":"An-Nas",
+			"bosnian":"Ljudi",
+			"bosnianTranscription":"En-Nas"
+		}
 	},
 	{
 		"index":6236,
@@ -482,7 +566,13 @@ RESPONSE:
 		"page":604,
 		"korkutsTranslation":"od džina i od ljudi!\"",
 		"tafsir":"a on nekada bude ljudske, a nekada džinske vrste.",
-		"suraName":"En-Nas - الناس"
+		"suraTitle":{
+			"arabic":"الناس",
+			"english":"The Mankind",
+			"englishTranscription":"An-Nas",
+			"bosnian":"Ljudi",
+			"bosnianTranscription":"En-Nas"
+		}
 	}
 ]
 ```
